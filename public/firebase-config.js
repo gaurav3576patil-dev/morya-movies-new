@@ -1,0 +1,11 @@
+// Firebase Console > Project settings > Your apps > Web app मधील config इथे paste करा.
+export const firebaseConfig = {
+  apiKey: "PASTE_API_KEY",
+  authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
+  projectId: "PASTE_PROJECT_ID",
+  storageBucket: "PASTE_PROJECT_ID.appspot.com",
+  messagingSenderId: "PASTE_SENDER_ID",
+  appId: "PASTE_APP_ID"
+};
+// Firebase Authentication मधील तुमच्या Admin account चा UID इथे paste करा.
+export const OWNER_UID = "PASTE_ADMIN_UID";
