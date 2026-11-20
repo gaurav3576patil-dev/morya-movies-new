@@ -1,11 +1,10 @@
-// Firebase Console > Project settings > Your apps > Web app मधील config इथे paste करा.
-export const firebaseConfig = {
-  apiKey: "PASTE_API_KEY",
-  authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-  projectId: "PASTE_PROJECT_ID",
-  storageBucket: "PASTE_PROJECT_ID.appspot.com",
-  messagingSenderId: "PASTE_SENDER_ID",
-  appId: "PASTE_APP_ID"
-};
-// Firebase Authentication मधील तुमच्या Admin account चा UID इथे paste करा.
-export const OWNER_UID = "PASTE_ADMIN_UID";
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBJLD6fRjPc9Oh-_ToTIMpGBPZI1t_RvsE",
+  authDomain: "morya-movies.firebaseapp.com",
+  projectId: "morya-movies",
+  storageBucket: "morya-movies.firebasestorage.app",
+  messagingSenderId: "84057119671",
+  appId: "1:84057119671:web:1a2876eaec04566efde632",
+  measurementId: "G-E19C93QJGK"
+};export const OWNER_UID = "PASTE_ADMIN_UID";
