@@ -7,4 +7,4 @@ const firebaseConfig = {
   messagingSenderId: "84057119671",
   appId: "1:84057119671:web:1a2876eaec04566efde632",
   measurementId: "G-E19C93QJGK"
-};export const OWNER_UID = "PASTE_ADMIN_UID";
+};export const OWNER_UID = "Wf21791ev6MdaPQyXQo7cfoPeBr1";
