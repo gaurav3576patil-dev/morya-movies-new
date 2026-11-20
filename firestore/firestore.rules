@@ -2,7 +2,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
-    function isOwner() { return signedIn() && request.auth.uid == 'PASTE_ADMIN_UID'; }
+    function isOwner() { return signedIn() && request.auth.uid == 'Wf21791ev6MdaPQyXQo7cfoPeBr1'; }
     function isStaff() { return signedIn() && exists(/databases/$(database)/documents/staff/$(request.auth.uid)); }
     // Shared booking/event data only. Never store payment fields here.
     match /bookings/{bookingId} {
